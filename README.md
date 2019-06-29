@@ -2,7 +2,7 @@
 
 **Flixster** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-Time spent: **14** hours spent in total
+Time spent: **15** hours spent in total
 
 ## User Stories
 
@@ -17,7 +17,7 @@ The following **stretch** features are implemented:
   * [x] Title, Backdrop Image, Overview (Landscape mode)
 * [x] Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
 * [x] Allow user to view details of the movie including ratings and popularity within a separate activity
-* [ ] Improved the user interface by experimenting with styling and coloring.
+* [x] Improved the user interface by experimenting with styling and coloring.
 * [x] Apply rounded corners for the poster or background images using [Glide transformations](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#transformations)
 * [x] Apply the popular [Butterknife annotation library](http://guides.codepath.org/android/Reducing-View-Boilerplate-with-Butterknife) to reduce boilerplate code.
 * [ ] Allow video trailers to be played in full-screen using the YouTubePlayerView from the details screen.
@@ -30,13 +30,15 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough_portrait.gif' title='Video Portrait Walkthrough'/>
+
+<img src='walkthrough_landscape.gif' title='Video Landscape Walkthrough'/>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Some challenges I encountered while build this app were interacting with the movie database API and attempting to integrate movie trailer functionality via YouTube API.
 
 ## Open-source libraries used
 
